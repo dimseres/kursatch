@@ -1,14 +1,20 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import Index from '../views/Index'
+import PoolView from '../views/PoolView'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Index Page',
+    component: Index,
+  },
+  {
+    path: '/pool/:uuid',
+    name: 'PoolView',
+    component: PoolView,
   },
   {
     path: '/about',

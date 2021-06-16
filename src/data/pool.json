@@ -1,0 +1,81 @@
+{
+  "pool_title": "Тест по биологии",
+  "author": "Попов А.А",
+  "time_limit": 72000,
+  "123151": {
+    "title": "Тип вопроса с одним правильным ответом",
+    "description": "Dolor sit amet",
+    "type": 1,
+    "custom_variant": false,
+    "variants": [
+      {
+        "answer": "Yes"
+      },
+      {
+        "answer": "No"
+      },
+      {
+        "answer": "Maybe"
+      }
+    ]
+  },
+  "9893123": {
+    "title": "Тип вопроса с одним правильным ответом + ручной ввод",
+    "description": "Dolor sit amet",
+    "type": 1,
+    "custom_variant": true,
+    "variants": [
+      {
+        "answer": "Yes"
+      },
+      {
+        "answer": "No"
+      },
+      {
+        "answer": "Maybe"
+      },
+      {
+        "custom_variant": true,
+        "answer": ""
+      }
+    ]
+  },
+  "123532": {
+    "title": "Как называется этот тип данных?",
+    "description": "Dolor sit amet",
+    "type": 2,
+    "custom_variant": false,
+    "variants": [
+      {
+        "answer": "Yes"
+      },
+      {
+        "answer": "No"
+      },
+      {
+        "answer": "Maybe"
+      }
+    ]
+  },
+  "664323": {
+    "title": "Lorem ipsum",
+    "description": "Dolor sit amet",
+    "type": 2,
+    "custom_variant": true,
+    "variants": [
+      {
+        "answer": "Yes"
+      },
+      {
+        "answer": "No"
+      },
+      {
+        "answer": "Maybe"
+      },
+      {
+        "custom_variant": true,
+        "answer": ""
+      }
+    ]
+  }
+}
